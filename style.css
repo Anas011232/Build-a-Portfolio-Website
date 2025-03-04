@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+nav{
+    display: flex;
+    font-family: Open Sans;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+body{
+    font-family: Open Sans;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-tittle{
+    display: flex;
+    font-family: Open Sans;
+    font-weight: 800; 
+    font-size: 45px;
+    margin-left: 226px;
+}
+span{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+ul>li{
+    list-style: none;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    margin-right: 230px;
+    
+}
+.btn{
+    background-color: #FD6E0A;
+    color: white;
+    font-family: Open Sans;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px 18px 35px;
+    border: none;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+
+}
+.abba1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+    
+    
+}
+.son{
+   
+   width: 586px;
+   
+
+
+
+
+}
+.hi{
+    font-family: Open Sans;
+font-size: 45px;
+font-weight: 600;
+}
+.mary{
+    font-family: Open Sans;
+font-size: 85px;
+font-weight: 700;
+}
+p{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+}
+img{
+    
+    width: 467px;
+    
+}
+.header{
+    background-image: url("./images/developer.png"),url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    
+}
